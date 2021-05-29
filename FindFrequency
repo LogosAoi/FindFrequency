@@ -1,0 +1,6 @@
+public int FindFrequency(char element, string array) 
+        {
+            int result = 0;
+            result = array.Where(p => p == element).ToList().Count;
+            return result;
+        }
